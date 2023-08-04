@@ -720,20 +720,24 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 }
 
-.modal-button:hover {
-background-color: #404bbf;
-border: none;
-fill: #ffffff;
-}
 
-.modal-button:focus {
-background-color: #404bbf;
-border: none;
-fill: #ffffff;
-}
 
 .modal-button-svg {
 width: 8;
 height: 8;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-button:hover {
+    border: none;
+    background-color: #404bbf;
+}
+
+.modal-button:focus {
+    border: none;
+    background-color: #404bbf;
+}
+
+.modal-button:hover,
+.modal-button:focus .modal-button-svg {
+    fill: #ffffff;
