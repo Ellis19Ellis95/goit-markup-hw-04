@@ -574,9 +574,9 @@ img {
 }
 
 .modal-button:hover,
-.modal-button:focus .modal-button-svg {
+.modal-button:focus  {
     fill: #ffffff;
-    
+
 }
 
 .modal-button-svg {
