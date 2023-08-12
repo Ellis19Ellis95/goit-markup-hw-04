@@ -195,6 +195,9 @@ img {
     letter-spacing: 0.02em;
     max-width: 496px;
     padding-bottom: 48px;
+    padding-top: 48px ;
+    padding-left: 48px;
+    padding-right: 48px;
 
 }
 
