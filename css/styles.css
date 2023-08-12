@@ -172,7 +172,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    align-items: center;
+    
 }
 
 .container-hero {
@@ -190,6 +190,7 @@ img {
     letter-spacing: 0.02em;
     max-width: 496px;
     padding-bottom: 48px;
+
 }
 
 .hero-btn {
