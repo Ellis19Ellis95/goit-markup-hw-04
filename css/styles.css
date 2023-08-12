@@ -178,7 +178,9 @@ img {
 .container-hero {
     display: flex;
     flex-direction: column;
-    padding:  316px;
+    
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 
 .hero-title {
